@@ -12,8 +12,8 @@ A recent version of pip is needed if you don't want to recompile SCALib from scr
 
 We suggest using a virtual environment:
 ```
-git clone https://github.com/simple-crypto/ASCAD-attack.git
-cd ASCAD-attack
+git clone https://github.com/cassiersg/ASCAD-5minutes.git
+cd ASCAD-5minutes
 python3 -m venv ve
 
 # On linux
