@@ -1,9 +1,6 @@
 # Attacking ASCAD with a Single Trace
 
-This repository contains the script associated to the paper 
-```
-TODO
-```
+This repository contains the script associated to the paper [Give Me 5 Minutes: Attacking ASCAD with a Single Side-Channel Trace](https://eprint.iacr.org/2021/817).
 
 ## Installation
 
