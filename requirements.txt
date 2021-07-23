@@ -8,6 +8,6 @@ Pillow==8.2.0
 pkg-resources==0.0.0
 pyparsing==2.4.7
 python-dateutil==2.8.1
-scalib==0.3.0
+scalib==0.3.3
 six==1.16.0
 tqdm==4.60.0
