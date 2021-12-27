@@ -29,13 +29,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-### <attack.py>
+### attack.py
 
 This is a simple attack script which minimally reproduces our attack and should
 be fairly esay to read or modify.
 To run with the default settings:
 ```
-python3 --database /path/to/ASCAD/raw/traces/atmega8515-raw-traces.h5
+python3 attack.py --database /path/to/ASCAD/raw/traces/atmega8515-raw-traces.h5
 ```
 
 For other attack settings:
@@ -43,7 +43,7 @@ For other attack settings:
 python3 attack.py --help
 ```
 
-### <attack_multi.py>
+### attack_multi.py
 
 This script performs the same attacks as <attack.py>, but stores intermediate
 results, run multiple attacks in parallel and produces success rate plots.
@@ -65,7 +65,7 @@ For all attack settings:
 python3 attack_multi.py --help
 ```
 
-### <subset_traces.py>
+### subset_traces.py
 
 A utility script to make subsets of the ASCAD database that are smaller, thus
 faster to load, for faster experimentation.
