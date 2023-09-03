@@ -6,8 +6,8 @@ Trace](https://eprint.iacr.org/2021/817).
 
 ## Installation
 
-This repository contains simple python (>=3.7) scripts, with known-good
-dependencies specified in `requirements.txt`.
+This repository contains simple python scripts, with known-good
+dependencies specified in `requirements.txt` (for python 3.10).
 A recent version of pip is needed if you want to install the pre-build version
 of SCALib, otherwise pip will try to recompile SCALib from scratch (which will
 fail if you don't have the build dependencies installed).
@@ -26,6 +26,11 @@ RUN ve/Scripts/activate
 pip install -U pip # to get recent pip
 pip install -r requirements.txt
 ```
+
+If the provided `requirements.txt` doesn't work, the direct dependencies are `matplotlib h5py scalib tqdm`.
+
+The ASCAD database file used  for the attack can be found at https://static.data.gouv.fr/resources/ascad-atmega-8515-variable-key/20190730-071646/atmega8515-raw-traces.h5 .
+
 
 ## Usage
 
